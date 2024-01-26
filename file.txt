@@ -1,6 +1,6 @@
 BEGIN TRANSACTION; 
 
 DELETE FROM Books
-WHERE BookID = 101;
+WHERE book_id = 101;
 
 COMMIT;

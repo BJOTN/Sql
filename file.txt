@@ -1,0 +1,3 @@
+CREATE ROLE martin;
+GRANT SELECT, UPDATE ON TABLE books TO martin;
+REVOKE DELETE ON TABLE books FROM martin;
